@@ -30,7 +30,6 @@
 		var $nav_a = $nav.find('a');
 
 		$nav_a
-			.addClass('scrolly')
 			.on('click', function(e) {
 
 				var $this = $(this);
@@ -69,7 +68,7 @@
 					'<a href="#header" class="toggle"></a>' +
 				'</div>'
 			)
-				.appendTo($body);
+//				.appendTo($body);
 
 		// Header.
 			$('#header')
@@ -77,7 +76,7 @@
 					delay: 500,
 					hideOnClick: true,
 					hideOnSwipe: true,
-					resetScroll: true,
+					//resetScroll: true,
 					resetForms: true,
 					side: 'left',
 					target: $body,
