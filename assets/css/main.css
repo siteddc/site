@@ -139,7 +139,7 @@ input, select, textarea {
 			}
 
 	h3 {
-		font-size: 1.5em;
+		font-size: 1.3em;
 	}
 
 	header {
@@ -1934,7 +1934,7 @@ input, select, textarea {
 	}
 
 		table tbody tr:nth-child(2n+2) {
-			background: #f4f4f4;
+			background: #e03939;
 		}
 
 		table td {
@@ -1954,7 +1954,7 @@ input, select, textarea {
 		}
 
 		table tfoot {
-			background: #ccc;
+			background: #006d77;
 		}
 
 /* Button */
@@ -2010,7 +2010,7 @@ input, select, textarea {
 			background: #fff;
 			margin: 0;
 			padding: 1em 0 1em 0;
-			font-size: 0.8em;
+			font-size: 0.9em;
 		}
 
 			.item header h3 {
@@ -2127,7 +2127,7 @@ input, select, textarea {
 			position: relative;
 			color: #fff;
 			font-weight: 600;
-			font-size: 1em;
+			font-size: 0.9em;
 			line-height: 1em;
 		}
 
@@ -2172,7 +2172,7 @@ input, select, textarea {
 				#nav ul li a span {
 					position: relative;
 					display: block;
-					font-size: 0.8em;
+					font-size: 0.85em;
 				}
 
 					#nav ul li a span:before {
@@ -2185,7 +2185,7 @@ input, select, textarea {
 					}
 
 				#nav ul li a.active {
-					background: rgba(0, 0, 0, 0.15);
+					background: rgba(255, 255, 255, 0.9);
 					box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
 					color: #fff;
 				}
@@ -2199,7 +2199,7 @@ input, select, textarea {
 	#footer {
 		margin-left: 375px;
 		text-align: center;
-		background-color: #dce3e2;
+		background-color: #006d77;
 		padding: 0.4em 0 0.4em 0;
 		box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 		font-size: 0.8em;
@@ -2231,7 +2231,6 @@ input, select, textarea {
 	}
 
 		#main > section {
-			margin: 0;
 			overflow: hidden;
 			padding: 4em 0;
 			box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
@@ -2268,20 +2267,19 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-color: #edf6f9;
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				background-color: #edf6f9;
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color: #edf6f9;
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				background-color: #edf6f9;
 			}
 
 /* Wide */
@@ -2291,7 +2289,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 17pt;
+				font-size: 15pt;
 			}
 
 		/* Header */
@@ -2321,7 +2319,7 @@ input, select, textarea {
 		/* Main */
 
 			#main > section {
-				padding: 1em 0;
+				padding: 2em 0;
 			}
 
 			#main section.cover {
@@ -2368,7 +2366,7 @@ input, select, textarea {
 			}
 
 			#nav ul li a {
-				font-size: 0.8em;
+				font-size: 0.9em;
 				padding-top: 0.5em;
 				padding-bottom: 0.5em;
 			}
@@ -2465,6 +2463,7 @@ input, select, textarea {
 				transition: transform 0.5s ease;
 				padding-bottom: 1px;
 				margin-left: 0;
+				background-color: #edf6f9;
 			}
 
 				#main > section {
@@ -2526,6 +2525,7 @@ input, select, textarea {
 				border: 0;
 				padding: 0;
 				margin: 1em 0 0 0;
+				color: #fff;
 			}
 
 				#footer .copyright li:first-child {
